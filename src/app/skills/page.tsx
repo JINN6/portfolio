@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
-import Image from "next/image";
+
 import React from "react";
 
 import "aos/dist/aos.css";
