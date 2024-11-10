@@ -8,7 +8,7 @@ const Skills = () => {
   return (
     <div>
       <Navbar />
-      <div data-aos="flip-up" className=" text-white">
+      <div data-aos="zoom-in-down" className=" text-white">
         <h1 className="text-center text-6xl pt-8 pb-16">
           My <span className="text-[#0ef]">Skills</span>
         </h1>
@@ -34,7 +34,7 @@ const Skills = () => {
                   </div>
                 </div>
               </div>
- <div className="flex flex-col items-start">
+              <div className="flex flex-col items-start">
                 <div className="text-lg mb-2">CSS</div>
                 <div className="w-full h-2 bg-[#333] rounded-lg relative overflow-hidden">
                   <span
@@ -64,7 +64,7 @@ const Skills = () => {
                   </div>
                 </div>
               </div>
- <div className="flex flex-col items-start">
+              <div className="flex flex-col items-start">
                 <div className="text-lg mb-2">Python</div>
                 <div className="w-full h-2 bg-[#333] rounded-lg relative overflow-hidden">
                   <span

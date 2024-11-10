@@ -8,13 +8,15 @@ export default function About() {
       <div className="min-h-screen bg-black text-white flex flex-col justify-center">
         <section className="container mx-auto px-4 md:px-8 py-8 md:py-16 flex flex-col md:flex-row items-center gap-8 md:gap-12">
 
-          <div className="w-full md:w-1/2 flex justify-center mb-8 md:mb-0">
-            <img data-aos="zoom-in-up"
+          <div className="w-full md:w-1/2 flex justify-center items-center mb-8 md:mb-0">
+            <img 
+              data-aos="zoom-in-up"
               src="/creative.png"
               alt="Profile"
-              className="rounded-full border-white border-4 shadow-lg w-3/4 sm:w-1/2 md:w-full max-w-xs sm:max-w-sm md:max-w-md object-cover"
+              className="rounded-full border-white border-4 shadow-lg w-3/4 sm:w-2/3 md:w-full max-w-xs sm:max-w-sm md:max-w-md object-cover"
             />
           </div>
+
           <div data-aos="zoom-in-up" className="w-full md:w-1/2">
             <h1 className="text-4xl sm:text-5xl font-bold text-center md:text-left mb-6 sm:mb-8">
               ABOUT <span className="text-white">ME</span>
@@ -44,6 +46,7 @@ export default function About() {
               </Link>
             </div>
           </div>
+
         </section>
       </div>
     </div>
