@@ -13,7 +13,7 @@ export default function About() {
               data-aos="zoom-in-up"
               src="/creative.png"
               alt="Profile"
-              className="rounded-full border-white border-4 shadow-lg w-3/4 sm:w-2/3 md:w-full max-w-xs sm:max-w-sm md:max-w-md object-cover"
+              className=" shadow-lg w-3/4 sm:w-2/3 md:w-full max-w-xs sm:max-w-sm md:max-w-md object-cover"
             />
           </div>
 
