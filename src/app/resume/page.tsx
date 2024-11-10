@@ -12,7 +12,7 @@ export default function About() {
           <div className="w-full md:w-1/2 flex justify-center items-center mb-8 md:mb-0">
           
 
-          <Image
+          <Image data-aos="zoom-in-up"
             className="  rounded-full border-[6px] border-white"
             src="/loogo.jpg" 
             alt="Image"
