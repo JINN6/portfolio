@@ -10,12 +10,16 @@ export default function About() {
         <section className="container mx-auto px-4 md:px-8 py-8 md:py-16 flex flex-col md:flex-row items-center gap-8 md:gap-12">
 
           <div className="w-full md:w-1/2 flex justify-center items-center mb-8 md:mb-0">
-            <img 
-              data-aos="zoom-in-up"
-              src="/creative.png"
-              alt="Profile"
-              className=" shadow-lg w-3/4 sm:w-2/3 md:w-full max-w-xs sm:max-w-sm md:max-w-md object-cover"
-            />
+          
+
+          <Image
+            className="rounded-full border-[6px] border-[#0ef]"
+            src="/raw.jpg" 
+            alt="Image"
+            width={450} 
+            height={450} 
+          />
+
           </div>
 
           <div data-aos="zoom-in-up" className="w-full md:w-1/2">
