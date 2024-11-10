@@ -13,8 +13,8 @@ export default function About() {
           
 
           <Image
-            className="rounded-full border-[6px] border-[#0ef]"
-            src="/raw.jpg" 
+            className="  rounded-full border-[6px] border-white"
+            src="/loogo.jpg" 
             alt="Image"
             width={450} 
             height={450} 
